@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: url(virtual-schools-signature.png) no-repeat center;
+	background-size: cover;
+}
+
+table{
+	border-collapse: collapse;
+	width: 900px;
+	text-align: center;
+	border: #565656 solid 0.5px;
+}
+th{
+	background: #F0F0F0;
+}

@@ -1,0 +1,397 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url(virtual-schools-signature.png) no-repeat center;
+	background-size: cover;
+	color: #FFFFFF;
+}
+h1{
+	color: #3FB693;
+}
+#headerhold{
+	background: #FFFFFF;
+	border: #F8F8F8 solid 0.5px;
+	transform: translateY(-640%);
+	opacity: 0.9;
+}
+
+#tatext{
+	width: 16%;
+	margin-left: 42%;
+	margin-right:42%;
+	font-size: 2.5vw;
+	font-style: oblique;
+	color: #303030;
+	transform: translateY(-15px);
+	height: 20px;
+}
+
+#togglebuttonshold #hometoggle{
+	background: #3FB693;
+}
+#togglebuttonshold #hometoggle:hover{
+	background: #222222;
+}
+
+#togglebuttonshold{
+	width: 50%;
+	height: 40px;
+	margin-left: 25%;
+	margin-right:25%;
+	transform: translateY(-12px);
+	padding: 0px;
+	list-style: none;
+	
+}
+
+#togglebuttonshold li{
+	float: left;
+	width: 20%;
+	height: 40px;
+	font-size: 0.8vw;
+	color: #FFFFFF;
+	background: #8A8A8A;
+	text-align: center;
+	line-height: 40px;
+	
+}
+
+#togglebuttonshold li:hover{
+	background: #222222;
+	cursor: pointer;
+}
+
+
+
+#studentsbuttonshold{
+	padding: 0px;
+	list-style: none;
+}
+#togglebuttonshold li:hover ul li{
+	display: block;
+}
+
+#studentsbuttonshold li{
+	float: left;
+	color: #FFFFFF;
+	background: #8A8A8A;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 0.8vw;
+	line-height: 40px;
+	display:none;
+}
+
+#registerbuttonshold{
+	padding: 0px;
+	list-style: none;
+}
+
+#registerbuttonshold li{
+	float: left;
+	color: #FFFFFF;
+	background: #8A8A8A;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	display: none;
+}
+
+
+#contenthold{
+	/*background: #F5F5F5;*/
+	border-bottom: #F8F8F8 solid 0.5px;
+	border-left: #F8F8F8 solid 0.5px;
+	border-right: #F8F8F8 solid 0.5px;
+	transform: translateY(15%);
+}
+
+#registerhold{
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+}
+
+#studenthold{
+	width: 100%;
+	height: 100%;
+	transform: translateY(-100%);
+	visibility: hidden;
+}
+
+#gradehold{
+	width: 100%;
+	height: 100%;
+	transform: translateY(-200%);
+	visibility: hidden;
+}
+
+#homehold{
+	width: 100%;
+	height: 100%;
+	transform: translateY(-300%);
+}
+
+#addstudentform{
+	align-content: center;
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+	transform: translateY(-50px);
+}
+#studentfirstname,#studentlastname,#studentmiddlename,#studentgender,#studentage,#studentdob,#studentclass,#studentform,#studenthouse{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+}
+#addstudentsubmit{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+	background: #3FB693;
+	color: #ffffff;
+}
+#addstudentsubmit:hover{
+	background: #222222;
+}
+
+#newstudenttext{
+	transform: translateY(-50px);
+}
+#searchstudentform{
+	align-content: center;
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+#searchstudentfirstname{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+}
+
+#searchstudentlastname{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+}
+
+#searchstudentsubmit{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+	background: #3FB693;
+	color: #ffffff;
+}
+
+#searchstudentsubmit:hover{
+	background: #222222;
+}
+
+#viewregisterform{
+	align-content: center;
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+#viewregistername{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+}
+
+#viewregistersubmit{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+	background: #3FB693;
+	color: #ffffff;
+}
+
+#viewregistersubmit:hover{
+	background: #222222;
+}
+
+#logoutsubmit{
+	background: #B3393B;
+	font-family:Times, "Times New Roman";
+	width: 100%;
+	height: 40px;
+	border: none;
+	color: #FFFFFF;
+	font-size: 0.8vw;
+}
+#logoutsubmit:hover{
+	background: #222222;
+	cursor: pointer;
+}
+
+#logoutform{
+	background: #B3393B;
+	font-family:Times, "Times New Roman";
+	width: 100%;
+	height: 40px;
+	border: none;
+}
+
+#allstudentssubmit{
+	background: #8A8A8A;
+	font-family:Times, "Times New Roman";
+	width: 100%;
+	height: 40px;
+	border: none;
+	color: #FFFFFF;
+	font-size: 0.8vw;
+}
+#allstudentssubmit:hover{
+	background: #222222;
+	cursor: pointer;
+}
+
+#allstudentsform{
+	background: #8A8A8A;
+	font-family:Times, "Times New Roman";
+	width: 100%;
+	height: 40px;
+	border: none;
+}
+
+ol{
+	width: 300px;
+	border: #565656 solid 0.5px;
+}
+ol li{
+	border-top: #565656 solid 0.5px;
+}
+
+#takeregisterform{
+	align-content: center;
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+#takeregisterstudentdate,#takeregisterstudentname,#takeregisterregister{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+}
+
+#markregistersubmit{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+	background: #3FB693;
+	color: #ffffff;
+}
+#tregisterhold{
+	transform: translateY(30px);
+	height: 100%;
+}
+#vregisterhold{
+	transform: translateY(-500%);
+}
+#takegradeform{
+	align-content: center;
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+#takegradetestname,#takegradestudentname,#taketestgrade{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+}
+
+#markgradesubmit{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+	background: #3FB693;
+	color: #ffffff;
+}
+#tgradehold{
+	transform: translateY(30px);
+	height: 100%;
+}
+#vgradehold{
+	transform: translateY(-500%);
+}
+#viewgradeform{
+	align-content: center;
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+#viewgradename{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+}
+#takegradeform{
+	align-content: center;
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+#viewgradesubmit{
+	border: none;
+	padding-left: 2px;
+	height: 30px;
+	font-size: 1vw;
+	margin-bottom: 2px;
+	width: 100%;
+	background: #3FB693;
+	color: #ffffff;
+}
+@media screen and (max-width: 1920px){
+	#headerhold{
+		width: 100%;
+		height: 100px;
+	}
+	#contenthold{
+		width: 100%;
+		height: 650px;
+	}
+}
